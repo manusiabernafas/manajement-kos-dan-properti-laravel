@@ -1,0 +1,96 @@
+@media (max-width: 1280px) {
+    .dashboard-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard-row,
+    .dashboard-row.cols-2-even {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-cols-4 { grid-template-columns: repeat(2, 1fr); }
+    .grid-cols-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 1024px) {
+    .app-content {
+        padding: 22px 20px 48px;
+    }
+
+    .navbar {
+        padding: 0 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-cols-2,
+    .grid-cols-3,
+    .grid-cols-4,
+    .grid-cols-5,
+    .grid-cols-6 {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .page-header-actions {
+        justify-content: flex-start;
+    }
+
+    .table-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .table-toolbar-left {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .table-search input {
+        width: 100%;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-header-actions {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .doc-meta-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .doc-sheet {
+        padding: 24px 18px;
+    }
+
+    .modal {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-content {
+        padding: 16px 14px 40px;
+    }
+
+    .stat-card-value {
+        font-size: 20px;
+    }
+
+    .room-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+}

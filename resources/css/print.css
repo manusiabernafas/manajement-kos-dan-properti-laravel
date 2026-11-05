@@ -1,0 +1,26 @@
+@media print {
+    .sidebar, .navbar, .app-content .page-header-actions, .doc-actions,
+    .no-print, .toast-container, .modal-overlay, .drawer-overlay {
+        display: none !important;
+    }
+
+    .app-main {
+        margin-left: 0 !important;
+    }
+
+    body {
+        background: #fff !important;
+    }
+
+    .doc-sheet {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .app-content {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+}

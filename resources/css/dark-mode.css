@@ -1,0 +1,33 @@
+html.dark ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+}
+
+html.dark .navbar-search input,
+html.dark .table-search input,
+html.dark .table-filter-select,
+html.dark select.form-control {
+    background: var(--color-bg);
+}
+
+html.dark select.form-control {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2398A2B3' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+html.dark .modal-overlay,
+html.dark .drawer-overlay,
+html.dark .sidebar-backdrop {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+html.dark img.dimmable {
+    opacity: 0.92;
+}
+
+html.dark .doc-sheet,
+html.dark .doc-sheet * {
+    color: var(--color-text);
+}
+
+html.dark .theme-switcher {
+    background: var(--color-bg);
+}
